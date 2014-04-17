@@ -1,5 +1,7 @@
 #Phonegap Plugin: SpeechKit
 
+**Currently only supports iOS**
+
 ### Installation
 
 **1. Register for NDEV Mobile SDK**
