@@ -4,9 +4,9 @@
         version="0.0.1">
 
   <name>SpeechKitPlugin</name>
-  <description>Cordova Speechkit Plugin</description>
+  <description>Phonegap SpeechKit Plugin</description>
   <license>Apache 2.0</license>
-  <keywords>cordova,speechkit</keywords>
+  <keywords>phonegap,cordova,speechkit</keywords>
 
   <js-module src="www/speechkit.js" name="SpeechKit">
     <clobbers target="SpeechKit" />
