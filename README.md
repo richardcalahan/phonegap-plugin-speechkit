@@ -36,7 +36,7 @@ Ensure the target architectures are explicitly defined as the following for your
 
 **6. Add Credentials**
 
-Add your NDEV Mobile SDK AppKey and AppID to the `Credentials.m` source file in the Plugins group. For example:
+Add your NDEV Mobile SDK AppKey and AppID to the `Credentials.m` source file in the Plugins group.
     
 
 ### Usage
