@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.ndev.speechkit" 
+        version="0.0.1">
+
+  <name>SpeechKitPlugin</name>
+  <description>Cordova Speechkit Plugin</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,speechkit</keywords>
+
+  <js-module src="www/speechkit.js" name="SpeechKit">
+    <clobbers target="SpeechKit" />
+  </js-module>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="SpeechKitPlugin">
+        <param name="ios-package" value="SpeechKitPlugin"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/ICredentials.h" />
+    <header-file src="src/ios/Credentials.h" />
+    <source-file src="src/ios/Credentials.m" />
+    <header-file src="src/ios/SpeechKitPlugin.h" />
+    <source-file src="src/ios/SpeechKitPlugin.m" />
+  </platform>
+
+</plugin>
